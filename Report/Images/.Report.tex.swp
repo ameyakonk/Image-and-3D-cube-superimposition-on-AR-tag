@@ -55,6 +55,7 @@ As per the task, AR tag detection using Fast Fourier Transform was performed on 
 	\includegraphics[width=1\textwidth]{FFTimage}
 	\caption{Filtered Image.} 
 \end{figure}
+
 \end{description}
 
 \section{Decode custom AR tag}
@@ -78,6 +79,12 @@ As per the given task, Id of the AR tag of a selected frame of the video was per
 \item[8.] After finding the isolated AR tag, divided the image into 8 parts. Checked the value of the pixels corresponding to the coordinates [\ 3.5d, 3.5d]\ ,[\ 4.5d, 3.5d]\ ,[\ 4.5d, 4.5d]\, [\ 3.5d, 4.5d]\ in clockwise order. If the value is 255, cosidered it as 1 else 0. 
 \item[9.] If a value of 7 is found by using bit operation counter-clockwise, then the orientation is correct, otherwise rotate the AR Tag till the bit operation of 13 is found.
 \end{description}
+
+\begin{figure}[!htbp]
+  \centering
+	\includegraphics[width=1\textwidth]{IdMarker}
+	\caption{Id Detected.}
+\end{figure}
 
 \begin{figure}[!htbp]
   \centering
