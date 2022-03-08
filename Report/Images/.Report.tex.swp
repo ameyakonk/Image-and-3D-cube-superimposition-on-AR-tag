@@ -2,7 +2,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{float}
-
+\usepackage{hyperref}
 
     \title{\textbf{Project-1}}
     \author{\textbf{Ameya Konkar} \; \textbf{UID: 118191058}}
@@ -170,6 +170,12 @@ After detecting the AR Tag value, The following steps were followed to place the
 	\caption{Cube superimposed on the AR tag.}
 \end{figure}
 \end{description}
+
+\section{Video links}
+
+\href{https://drive.google.com/file/d/1m5V9MevaSXxdnb2BP1cSaoek3ulr9fvz/view?usp=sharing}{Virtual Cube video link}
+\newline
+\href{https://drive.google.com/file/d/1y2uU_5usuF46AEnhqDzBH_LwJlQrjp1O/view?usp=sharing}{Image Superimposition video link}
 
 \end{document}
 
