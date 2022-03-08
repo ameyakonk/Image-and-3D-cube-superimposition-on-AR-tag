@@ -88,7 +88,7 @@ class AR_Detect:
         img1 = cv2.line(img1, c[3], c[1], color, thickness)
         img1 = cv2.line(img1, c[3], c[2], color, thickness)
         img1 = cv2.line(img1, c[0], c[2], color, thickness)
-        self.result.write(img1)
+        #self.result.write(img1)
        
         cv2.imshow("frame", img1)
         if cv2.waitKey(1) & 0xff == ord('q'):
